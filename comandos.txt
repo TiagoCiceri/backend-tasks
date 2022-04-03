@@ -1,0 +1,32 @@
+Criando o package.json:
+npm init -y
+
+Instalações:
+
+* Web
+npm i -s express body-parser cors consign
+
+* Segurança
+npm i -s bcrypt-nodejs jwt-simple passport passport-jwt
+
+* Banco de dados
+npm i -s knex pg
+sudo npm i knex -g
+knex init 
+knex migrate:make create_table_users
+knex migrate:make create_table_tasks
+
+knex migrate:latest
+
+* Utilitários
+npm i -s moment
+npm i --save-dev nodemon
+
+
+echo "# cod3r-backend-tasks" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/TiagoCiceri/cod3r-backend-tasks.git
+git push -u origin main
