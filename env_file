@@ -1,0 +1,5 @@
+//Arquivo de referencia apenas.
+//Renomear para .env
+module.exports = {
+    authSecret: ''
+}

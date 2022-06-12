@@ -30,3 +30,8 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/TiagoCiceri/cod3r-backend-tasks.git
 git push -u origin main
+
+****************************************
+para rodar digite:
+npm start
+****************************************
